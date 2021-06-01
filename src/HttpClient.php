@@ -13,9 +13,15 @@ class HttpClient
     public $client;
 
     private $cookie;
-    
+
 
     public function __construct()
+    {
+
+    }
+
+
+    public function requestGet()
     {
 
     }
@@ -33,7 +39,7 @@ class HttpClient
     }
 
 
-    public function requestGet()
+    public function requestDelete()
     {
 
     }
